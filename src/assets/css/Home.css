@@ -1,0 +1,22 @@
+.tituloPagina{
+    align-items: center;
+
+}
+
+.containerHomer{
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+    height: auto;
+    width: auto;
+}
+
+.Calendar{
+    margin: 10px;
+}
+@media (max-width: 768px) {
+    .containerHomer {
+        padding: 10px; 
+    }
+}

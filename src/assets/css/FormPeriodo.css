@@ -1,0 +1,79 @@
+.section1FormPeriodos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+  }
+  
+  .containerFormPeriodos {
+    border: solid 2px #ffff;
+    border-radius: 9px;
+    background: #ffff;
+    align-items: center;
+    width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+  }
+  
+  .cadastroFormularioPeriodos {
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .divCampoPeriodo {
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    flex-direction: column;
+    align-items: normal;
+    gap: 2px;
+    border-radius: 9px;
+    margin-top: 10px;
+  }
+  
+  .btnSubmitFormPeriodos {
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    background-color: #bc5cda;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    color: #ffff;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1;
+    padding: 10px;
+  }
+  
+  .containerTabelaPeriodos {
+    display: grid;
+    justify-content: start;
+    row-gap: 30px;
+    color: azure;
+  }
+  .btnEditarPeriodo,
+  .btnCancelarEdicaoPeriodo{
+      margin: 10px;
+      cursor: pointer;
+      transition: all .2s ease-in-out;
+      background-color: #bc5cda;
+      border-radius: 4px;
+      border: 1px solid transparent;
+      color: #ffff;
+      width: 47%;
+      font-size: 1rem;
+      font-weight: 600;
+      line-height: 1;
+      padding: 10px;
+  }
+  
+  .btnTabela{
+    background-color: #85658c;
+    border: none;
+    color: #ffff;
+    font-size: 15px;
+  }

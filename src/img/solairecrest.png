@@ -1,0 +1,12 @@
+import React from 'react';
+import minhaImagem from './solaire-crest.png';
+
+const MeuComponente = () => {
+    return (
+        <div>
+            <img src={minhaImagem} alt="" />
+        </div>
+    );
+}
+
+export default MeuComponente;
